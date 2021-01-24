@@ -16,7 +16,7 @@ public:
 	}
 
 	double findMedian() {
-
+		 
 		return arr.size() % 2 ? (double)arr[arr.size() / 2] : (double)(arr[arr.size() / 2 - 1] + arr[arr.size() / 2]) / 2.0;
 	}
 };
